@@ -1,0 +1,72 @@
+!REACT
+
+npm create vite@latest: react projesi oluşturmak için kullanılır.
+npm create vite@latest . (bulunulan klasöre kurulum yapar)
+npm install : proje bağımlılıklarını yüklemek için kullanılır.
+npm install react-icons: react iconlarını yüklemek için kullanılır
+npm run dev : projeyi çalıştırmak için kullanılır.
+npm run build : projeyi derlemek için kullanılır.
+npm run serve : projeyi derleyip çalıştırmak için kullanılır.
+Ctrl + C tuşu çalışan projey durdurup komut setine dönülür
+
+react bir spa
+(single Page Application) yapısıdır. Bu yapıda tek .html dosyası üzerinden yürür
+
+index.html : Bu dosya içerisinde uygulamanın başlangıç noktası belirlenir. Bu dosya içerisinde id=root olan bir div olmalıdır. uygulamanın başlangıç noktası olan main.jsx bileşeni render edilir.
+
+main.Jsx : Bu dosya içerisinde uygulamanın başlatılması ve render işlemi yapılır. Bu dosyada import edilmiş dosyalar vardır. Bu dosya içerisinde uygulamanın başlangıç noktası olan app.jsx dosyası çağrılır.
+
+App.Jsx : Localhost ile ilk gelen yapıdır. React uygulamasının ana bileşenidir.
+Bu dosya içerisinde uygulamanın tüm bileşenleri bulunur. Bu dosya içerisindeki
+bileşenler birbirleri ile iletişim kurarlar ve birbirlerini çağırırlar.
+
+package.json : Bu dosya içerisinde uygulamanın bağımlılıkları ve scriptleri bulunur. Bu dosya içerisinde uygulamanın çalıştırılması, derlenmesi ve paketlenmesi gibi işlemler yapılır.
+
+node_modules : Bu klasör içerisinde uygulamanın bağımlılıkları bulunur. Bu klasör içerisinde uygulamanın çalışması için gerekli olan tüm paketler bulunur.
+
+public : Bu klasör içerisinde uygulamanın statik dosyaları bulunur. Bu klasör içerisinde uygulamanın başlangıç noktası olan index.html dosyası bulunur.
+
+src : Bu klasör içerisinde uygulamanın kaynak kodları bulunur. Bu klasör içerisinde uygulamanın tüm bileşenleri ve dosyaları bulunur.
+
+vite.config.js : Bu dosya içerisinde uygulamanın yapılandırma ayarları bulunur. Bu dosya içerisinde uygulamanın çalışma ortamı, derleme ayarları ve diğer ayarlar bulunur.
+
+<div id="root"></div> : Bu etiket içerisinde uygulamanın render edileceği alan belirlenir. Bu etiket içerisinde uygulamanın başlangıç noktası olan App bileşeni render edilir.
+
+<script type="module" src="/src/main.jsx"></script>: Bu etiket içerisinde uygulamanın başlangıç noktası belirlenir. Bu etiket içerisinde uygulamanın başlangıç noktası olan main.jsx dosyası çağrılır.
+
+import './index.css' : Bu kod parçası ile index.css dosyası içeri aktarılır. Bu kod parçası ile uygulamanın stil dosyası içeri aktarılır.
+import App from './App.jsx' : Bu kod parçası ile App.jsx dosyası içeri aktarılır. Bu kod parçası ile uygulamanın ana bileşeni içeri aktarılır.
+
+
+// jsx in en büyük avantajı html ve js kodlarını bir arada kullanabilmemizi sağlamasıdır.
+
+// birden fazla eleman döndürmek istiyorsak <></> kullanabiliriz.
+
+// compenent' lar bir kez hazırlayıp içeriğini değiştirerek yada değiştirmeden her yerde kullanabiliriz. Component Dosya ismi büyük harfle başlar
+
+
+// Component oluşturmak için ES7 + react .... eklentisini yüklememiz gerekiyor. eklenti içerisinde snippets lardan biz rafce yada rfce snippet'ı ile component oluşturmayı kullanacağız.
+
+// Button.jsx dosyasınıda butonumuzu oluşturduk ve App.jsx dosyasında çağırdık. App.css de butonumuza stil verdik. Dikkat edilirse hepsinde button yazıyor. Nasıl değiştirecez. Burda da props lar devreye giriyor.
+
+// props ile componentler arası veri alışverişi yapabiliriz.
+
+// Buton.jsx dosyasında title props' u ile butonlarımıza isim verdik.
+// App.jsx dosyasında Buton componentlerimizi çağırırken title props' u ile isim verdi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
