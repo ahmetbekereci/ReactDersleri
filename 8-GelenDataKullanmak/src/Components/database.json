@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "color": "Gri",
+        "price": 2500,
+        "discount":false,
+        "img":"resim1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Telefon",
+        "color": "Siyah",
+        "price": 1500,
+        "discount":true,
+        "img":"resim2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Tablet",
+        "color": "Beyaz",
+        "price": 1000,
+        "discount":true,
+        "img":"resim3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Kulaklık",
+        "color": "Siyah",
+        "price": 500,
+        "discount":false,
+        "img":"resim4.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Klavye",
+        "color": "Siyah",
+        "price": 300,
+        "discount":false,
+        "img":"resim5.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Fare",
+        "color": "Beyaz",
+        "price": 200,   
+        "discount":true,
+        "img":"resim6.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Monitör",
+        "color": "Siyah",
+        "price": 1500,
+        "discount":true,
+        "img":"resim7.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Hoparlör",
+        "color": "Kırmızı",
+        "price": 1000,
+        "discount":false,
+        "img":"resim8.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Mikrofon",
+        "color": "Siyah",
+        "price": 500,
+        "discount":false,
+        "img":"resim9.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Kamera",
+        "color": "Siyah",
+        "price": 300,
+        "discount":true,
+        "img":"resim10.jpeg"
+    }
+]
